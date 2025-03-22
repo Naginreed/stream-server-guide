@@ -10,7 +10,7 @@
 [![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](lang/README.ko.md)
 [![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](lang/README.ar.md)
 
-> [!NOTE]
+> [!WARNING]
 > These translations were generated using AI and may contain errors.  
 > Feel free to submit corrections via pull request.
 
@@ -19,7 +19,7 @@
 [![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_windows)
 [![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_mac)
 
-> [!NOTE]
+> [!TIP]
 > Skip to my Cheap and Easy Setup by selecting OS above.
 
 ---
@@ -28,7 +28,8 @@ In IRL Streaming you often come in situations where you want to take a short bre
 You can *End the Livestream* but it will lose you viewers and create a new VOD every time you do it.
 The same happens every time you lose all your phone signal or run out of battery.
 
-**Everything that happens on the phone affects directly your stream**
+> [!NOTE]  
+> **Everything that happens on the phone affects directly your stream**
 
 <img src="https://github.com/user-attachments/assets/13ce58f3-6930-4711-bfaf-4e7716c1d48d" width="600">
 
@@ -60,7 +61,8 @@ https://comparison.dallnett.com/
 ---
 ## Variant B - Mixed Setup
 If you have a decent PC and good internet at home, you can move some [Components](#components) to your home PC to "save" monthly costs.
-This requires some technical knowledge and will take multiple hours of setup. Also, support is done by yourself. 
+> [!WARNING]
+> This requires some technical knowledge and will take multiple hours of setup. Some Support is done by yourself.
 
 - **Known Providers**  
 [Belabox Cloud](https://cloud.belabox.net/), [IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35), [IRLServer](https://irlserver.com/), and [AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)  
@@ -74,8 +76,10 @@ This requires some technical knowledge and will take multiple hours of setup. Al
 
 ---
 ## Variant C - Full Home Setup
-> [!WARNING]
-> You can move all [Components](#components) to your home PC, but this needs **advanced technical knowledge**.
+You can move all [Components](#components) to your home PC, which cost you now extra Money.
+> [!CAUTION]
+> This needs **advanced technical knowledge** and all Support/Maintenance is done by yourself.  
+> There could be Security Risks, if configured wrong.
 - **Network**:  
 Public IP, dynDNS, Port-Forwarding, or Firewall settings.
 - **Server**:  
@@ -86,9 +90,12 @@ Installing & maintaining Docker containers, including changing local settings.
 <img src="https://github.com/user-attachments/assets/de57944b-9fed-411d-a9c5-40b2bed001e3" width="600">
 
 ---
-### Components
+## Components
 - **SRTLA Receiver/Endpoints**: Receives multiple SRTLA connections and combines them into an SRT stream.
 - **SLS**: Offers the SRT stream by request with a stream ID and includes a status page with connection information (e.g., bitrate).
 - **NOALBS**: Switches OBS scenes based on the SLS status page or chat commands and posts info in the connected chat.
 - **OBS**: Streaming software on a PC or server that allows conversion between SRT and RTMP and adds a huge amount of customization options.
 
+---
+## Ko-Fi
+<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Wanna help me out?](https://ko-fi.com/naginreed)
