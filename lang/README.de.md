@@ -1,5 +1,5 @@
 # Streaming-Server
-[![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
+[![English](https://img.shields.io/badge/English-English-orange.svg)](../README.md)
 [![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](lang/README.es.md)
 [![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](lang/README.zh-CN.md)
 [![French](https://img.shields.io/badge/French-Français-orange.svg)](lang/README.fr.md)
