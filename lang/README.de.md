@@ -14,10 +14,10 @@
 > Diese Übersetzungen wurden mit KI generiert und können Fehler enthalten.
 > Gerne können Korrekturen über einen Pull-Request eingereicht werden.
 
-[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_windows)
-[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_mac)
-[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_windows)
-[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_mac)
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.de.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.de.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.de.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.de.md)
 
 > [!TIP]
 > Springe direkt zu meinem günstigen und einfachen Setup, indem du deine Betriebssysteme oberhalb auswählst.
@@ -51,7 +51,7 @@ Welche Version du wählst, hängt in der Regel davon ab:
 
 ---
 ## Variante A - Gehostete Einrichtung
-Die einfachste Version ist das Mieten eines Streaming-Servers, der alle [Komponenten](#components) kombiniert und oft verschiedene Support-Level anbietet.
+Die einfachste Version ist das Mieten eines Streaming-Servers, der alle [Komponenten](#komponenten) kombiniert und oft verschiedene Support-Level anbietet.
 
 - **Bekannte Anbieter**  
 https://comparison.dallnett.com/
@@ -60,19 +60,24 @@ https://comparison.dallnett.com/
 
 ---
 ## Variante B - Hybride Einrichtung
-Wenn du einen leistungsfähigen PC und stabiles Internet zu Hause hast, kannst du einige [Komponenten](#components) auf deinen Heim-PC verschieben, um monatliche Kosten zu sparen.
+Wenn du einen leistungsfähigen PC und stabiles Internet zu Hause hast, kannst du einige [Komponenten](#komponenten) auf deinen Heim-PC verschieben, um monatliche Kosten zu sparen.
 
 > [!WARNING]
 > Dies erfordert technisches Wissen und mehrere Stunden Einrichtung. Ein Teil des Supports muss selbst übernommen werden.
 
 - **Bekannte Anbieter**  
 [Belabox Cloud](https://cloud.belabox.net/), [IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35), [IRLServer](https://irlserver.com/), [AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)
+- **Anleitung**  
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.de.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.de.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.de.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.de.md)
 
 <img src="https://github.com/user-attachments/assets/55bb4690-ce13-4f1f-b418-7426f6ddf54f" width="600">
 
 ---
 ## Variante C - Vollständige Einrichtung zu Hause
-Du kannst alle [Komponenten](#components) auf deinen Heim-PC verschieben, ohne zusätzliche Kosten.
+Du kannst alle [Komponenten](#komponenten) auf deinen Heim-PC verschieben, ohne zusätzliche Kosten.
 
 > [!CAUTION]
 > Dies erfordert **fortgeschrittene technische Kenntnisse** und die gesamte Wartung/Unterstützung muss selbst durchgeführt werden.  
@@ -88,7 +93,7 @@ Installation und Wartung von Docker-Containern, einschließlich lokaler Anpassun
 <img src="https://github.com/user-attachments/assets/de57944b-9fed-411d-a9c5-40b2bed001e3" width="600">
 
 ---
-## Technische Komponenten
+## Komponenten
 
 - **SRTLA Receiver/Endpoints:** Empfängt mehrere SRTLA-Verbindungen und kombiniert sie zu einem SRT-Stream.
 - **SLS:** Bietet den SRT-Stream auf Anfrage mit einer Stream-ID an und zeigt eine Statusseite mit Verbindungsinformationen (z. B. Bitrate).
