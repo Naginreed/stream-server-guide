@@ -1,23 +1,23 @@
 # Servidor de Transmisión
-[![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](lang/README.es.md)
-[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](lang/README.zh-CN.md)
-[![French](https://img.shields.io/badge/French-Français-orange.svg)](lang/README.fr.md)
-[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](lang/README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](lang/README.pt-BR.md)
-[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](lang/README.ja.md)
-[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](lang/README.ru.md)
-[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](lang/README.ko.md)
-[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](lang/README.ar.md)
+[![English](https://img.shields.io/badge/English-English-orange.svg)](../README.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](../lang/README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](../lang/README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](../lang/README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](../lang/README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](../lang/README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](../lang/README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](../lang/README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](../lang/README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](../lang/README.ar.md)
 
 > [!WARNING]
 > Estas traducciones fueron generadas utilizando IA y pueden contener errores.  
 > Siéntete libre de enviar correcciones mediante un pull request.
 
-[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_windows)
-[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_mac)
-[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_windows)
-[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_mac)
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.es.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.es.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.es.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.es.md)
 
 > [!TIP]
 > Salta a mi configuración fácil y económica seleccionando el sistema operativo arriba.
