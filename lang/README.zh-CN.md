@@ -1,23 +1,23 @@
 # 流媒体服务器
-[![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](lang/README.es.md)
-[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](lang/README.zh-CN.md)
-[![French](https://img.shields.io/badge/French-Français-orange.svg)](lang/README.fr.md)
-[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](lang/README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](lang/README.pt-BR.md)
-[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](lang/README.ja.md)
-[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](lang/README.ru.md)
-[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](lang/README.ko.md)
-[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](lang/README.ar.md)
+[![English](https://img.shields.io/badge/English-English-orange.svg)](../README.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
 
 > [!WARNING]
 > 这些翻译是由 AI 生成的，可能包含错误。
 > 欢迎通过 Pull Request 提交更正。
 
-[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_windows)
-[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_mac)
-[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_windows)
-[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](setup/android_mac)
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac)
 
 > [!TIP]
 > 选择上方的操作系统，跳转到我的简易低成本设置。
@@ -51,7 +51,7 @@
 
 ---
 ## 方案 A - 托管服务器
-最简单的方法是租用一个包含所有[组件](#components)的流媒体服务器，通常还提供不同级别的支持。
+最简单的方法是租用一个包含所有[组件](#组件)的流媒体服务器，通常还提供不同级别的支持。
 
 - **已知服务商**  
 https://comparison.dallnett.com/
@@ -60,35 +60,39 @@ https://comparison.dallnett.com/
 
 ---
 ## 方案 B - 混合设置
-如果你家里有一台不错的 PC 并且网络稳定，你可以将一些[组件](#components)转移到你的本地 PC，从而“节省”每月的费用。
+如果你家里有一台不错的 PC 并且网络稳定，你可以将一些[组件](#组件)转移到你的本地 PC，从而“节省”每月的费用。
 
 > [!WARNING]
 > 这需要一定的技术知识，并且需要花费多个小时进行设置。一些支持工作需要自己完成。
 
 - **已知服务商**  
-[Belabox Cloud](https://cloud.belabox.net/)、[IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35)、[IRLServer](https://irlserver.com/)、[AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)
+[Belabox Cloud](https://cloud.belabox.net/), [IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35), [IRLServer](https://irlserver.com/), [AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)
 
-<img src="https://github.com/user-attachments/assets/55bb4690-ce13-4f1f-b418-7426f6ddf54f" width="600">
+- **指南**  
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac)
 
 ---
 ## 方案 C - 全本地设置
-你可以将所有[组件](#components)转移到你的本地 PC，而无需额外成本。
+你可以将所有[组件](#组件)转移到你的本地 PC，而无需额外成本。
 
 > [!CAUTION]
-> 这需要 **高级技术知识**，所有支持和维护工作都需要自行完成。  
+> 这需要 **高级技术知识**，所有支持和维护工作都需要自行完成。
 > 如果配置错误，可能会存在安全风险。
 
-- **网络：**  
+- **网络：**
 公网 IP、动态 DNS、端口转发或防火墙设置。
-- **服务器：**  
+- **服务器：**
 安装和维护 Docker 容器，包括调整本地设置。
-- **Docker 容器：**  
-[Glowf1sh 的 All-in-One 容器](https://hub.docker.com/r/glowf1sh/srtla-receiver) 或 [Datagutt 的 bbox-receiver](https://github.com/datagutt/bbox-receiver)
+- **Docker 容器：**
+[All-in-One 容器（Glowf1sh 提供）](https://hub.docker.com/r/glowf1sh/srtla-receiver) 或 [bbox-receiver（Datagutt 提供）](https://github.com/datagutt/bbox-receiver)
 
 <img src="https://github.com/user-attachments/assets/de57944b-9fed-411d-a9c5-40b2bed001e3" width="600">
 
 ---
-## 组件介绍
+## 组件
 
 - **SRTLA 接收器/端点：** 接收多个 SRTLA 连接并将其合并为 SRT 流。
 - **SLS：** 通过流 ID 请求 SRT 流，并显示连接信息（如比特率）的状态页面。
