@@ -1,12 +1,24 @@
-# irl-cheap-and-easy
-Please choose your Combination of Operating Systems of the Phone and PC you want to use for your Streaming Setup
+# StreamServer Setup Guide
 
-[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](https://github.com/Naginreed/irl-cae_iOS-Win)
-[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](https://github.com/Naginreed/irl-cae_iOS-Mac)
-[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](https://github.com/Naginreed/irl-cae_Android-Win)
-[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](https://github.com/Naginreed/irl-cae_Android-Mac)
+Welcome to the **StreamServer Setup Guide**! This guide will help you configure your streaming setup based on your phone and PC operating system.
 
-Then please choose your preferred Language, please note these where automatically translated with AI from English, so there can be Translation Errors
+---
+
+## 📌 Choose Your OS Combination
+
+Please select your **Phone OS** and **PC OS** to proceed:
+
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](iOS-Windows/README-en.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](iOS-Mac/README-en.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](Android-Windows/README-en.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](Android-Mac/README-en.md)
+
+---
+
+## 🌍 Choose Your Language
+
+After selecting your OS combination, choose your preferred language.  
+⚠️ **Disclaimer:** These translations were generated using AI and may contain errors.
 
 [![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
 [![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
@@ -18,3 +30,12 @@ Then please choose your preferred Language, please note these where automaticall
 [![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
 [![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
 [![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
+
+---
+
+## ℹ️ Additional Information
+- If you find errors in a translation, feel free to submit a correction via pull request.
+- Unsure which OS guide to follow? Check your phone and PC system details before proceeding.
+
+🚀 **Get Started and Enjoy Streaming!** 🎥
+
