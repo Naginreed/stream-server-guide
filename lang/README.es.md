@@ -1,14 +1,14 @@
 # Servidor de Transmisión
 [![English](https://img.shields.io/badge/English-English-orange.svg)](../README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](../lang/README.es.md)
-[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](../lang/README.zh-CN.md)
-[![French](https://img.shields.io/badge/French-Français-orange.svg)](../lang/README.fr.md)
-[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](../lang/README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](../lang/README.pt-BR.md)
-[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](../lang/README.ja.md)
-[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](../lang/README.ru.md)
-[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](../lang/README.ko.md)
-[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](../lang/README.ar.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
 
 > [!WARNING]
 > Estas traducciones fueron generadas utilizando IA y pueden contener errores.  
@@ -51,7 +51,7 @@ La versión que elijas depende típicamente de:
 
 ---
 ## Variante A - Configuración Hospedada
-La versión más sencilla es alquilar un Servidor de Transmisión que combina todos los [Componentes](#components) y a menudo ofrece diferentes niveles de soporte.
+La versión más sencilla es alquilar un Servidor de Transmisión que combina todos los [Componentes](#componentes) y a menudo ofrece diferentes niveles de soporte.
 
 - **Proveedores Conocidos**  
 https://comparison.dallnett.com/
@@ -60,19 +60,24 @@ https://comparison.dallnett.com/
 
 ---
 ## Variante B - Configuración Mixta
-Si tienes un buen PC e internet estable en casa, puedes mover algunos [Componentes](#components) a tu PC personal para "ahorrar" costos mensuales.
+Si tienes un buen PC e internet estable en casa, puedes mover algunos [Componentes](#componentes) a tu PC personal para "ahorrar" costos mensuales.
 
 > [!WARNING]
 > Esto requiere conocimientos técnicos y llevará varias horas de configuración. Parte del soporte lo harás tú mismo.
 
 - **Proveedores Conocidos**  
 [Belabox Cloud](https://cloud.belabox.net/), [IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35), [IRLServer](https://irlserver.com/), [AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)
+- **Guías**  
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.es.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.es.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.es.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.es.md)
 
 <img src="https://github.com/user-attachments/assets/55bb4690-ce13-4f1f-b418-7426f6ddf54f" width="600">
 
 ---
 ## Variante C - Configuración Completa en Casa
-Puedes mover todos los [Componentes](#components) a tu PC personal sin costos adicionales.
+Puedes mover todos los [Componentes](#componentes) a tu PC personal sin costos adicionales.
 
 > [!CAUTION]
 > Esto requiere **conocimientos técnicos avanzados** y todo el soporte/mantenimiento lo harás tú mismo.  
@@ -88,7 +93,7 @@ Instalación y mantenimiento de contenedores Docker, incluidos ajustes locales.
 <img src="https://github.com/user-attachments/assets/de57944b-9fed-411d-a9c5-40b2bed001e3" width="600">
 
 ---
-## Componentes Técnicos
+## Componentes
 
 - **SRTLA Receiver/Endpoints:** Recibe múltiples conexiones SRTLA y las combina en una transmisión SRT.
 - **SLS:** Ofrece la transmisión SRT bajo petición con un ID de transmisión y muestra una página de estado con información de conexión (por ejemplo, bitrate).
