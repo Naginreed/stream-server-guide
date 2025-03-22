@@ -22,6 +22,7 @@
 > [!TIP]
 > 上のOSを選択して、簡単で低コストなセットアップにスキップできます。
 
+---
 ## ストリーミングサーバーとは？
 
 IRL配信では、トイレに行く、機密情報を隠すなど、短い休憩を取りたい場面がよくあります。
@@ -50,7 +51,7 @@ IRL配信では、トイレに行く、機密情報を隠すなど、短い休�
 
 ---
 ## バージョンA - ホスティング型設定
-最も簡単な方法は、すべての[コンポーネント](#components)を組み合わせたストリーミングサーバーをレンタルすることです。
+最も簡単な方法は、すべての[コンポーネント](#コンポーネント)を組み合わせたストリーミングサーバーをレンタルすることです。
 
 - **既知のプロバイダー**  
 https://comparison.dallnett.com/
@@ -59,14 +60,14 @@ https://comparison.dallnett.com/
 
 ---
 ## バージョンB - ハイブリッド設定
-
-自宅に高性能なPCと安定したインターネット環境がある場合は、一部の[コンポーネント](#components)をPCに移して、毎月のコストを削減できます。
+自宅に高性能なPCと安定したインターネット環境がある場合は、一部の[コンポーネント](#コンポーネント)をPCに移して、毎月のコストを削減できます。
 
 > [!WARNING]
 > これは技術的な知識が必要で、セットアップには数時間かかります。一部のサポート作業は自分で行う必要があります。
 
 - **既知のプロバイダー**  
 [Belabox Cloud](https://cloud.belabox.net/)、[IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35)、[IRLServer](https://irlserver.com/)、[AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)
+
 - **ガイド**  
 [![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_windows)
 [![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](setup/ios_mac)
@@ -77,25 +78,17 @@ https://comparison.dallnett.com/
 
 ---
 ## バージョンC - フルローカル設定
-すべての[コンポーネント](#components)を自宅のPCに移動し、追加コストなしで運用できます。
+すべての[コンポーネント](#コンポーネント)を自宅のPCに移動し、追加コストなしで運用できます。
 
 > [!CAUTION]
 > これは **高度な技術知識** が必要で、すべてのサポートとメンテナンスは自己対応になります。
 > 設定を誤ると、セキュリティリスクが生じる可能性があります。
-
-- **ネットワーク:**  
-グローバルIP、動的DNS、ポートフォワーディング、またはファイアウォールの設定。
-- **サーバー:**  
-Dockerコンテナのインストールとメンテナンス、ローカル設定の変更。
-- **Dockerコンテナ:**  
-[Glowf1shのAll-in-Oneコンテナ](https://hub.docker.com/r/glowf1sh/srtla-receiver) または [Dataguttのbbox-receiver](https://github.com/datagutt/bbox-receiver)
-
 <img src="https://github.com/user-attachments/assets/de57944b-9fed-411d-a9c5-40b2bed001e3" width="600">
 
 ---
 ## コンポーネント
 
-- **SRTLAレシーバー/エンドポイント:** 複数のSRTLA接続を受信し、それらをSRTストリームに統合。
+- **SRTLA レシーバー/エンドポイント:** 複数のSRTLA接続を受信し、それらをSRTストリームに統合。
 - **SLS:** ストリームIDを指定してSRTストリームを提供し、接続情報（ビットレートなど）を表示するステータスページを提供。
 - **NOALBS:** SLSのステータスページやチャットコマンドに基づいてOBSシーンを切り替え、情報をチャットに投稿。
 - **OBS:** PCやサーバー上で動作するストリーミングソフトウェアで、SRTとRTMPの変換を可能にし、多くのカスタマイズオプションを提供。
