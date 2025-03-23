@@ -66,69 +66,69 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/a762e027-b75a-4d72-9667-12f7b032b98c" height="400">  
 
 ---
-# 2 - SRT/SRTLA Relay
+2 - SRT/SRTLA-Relay
 
-> [!NOTE]   
-> Dieser Server nimmt die zwei SRTLA-Streams auf und kombiniert sie zu einem einzigen SRT-Stream, wie in der [Übersicht](#overview) dargestellt.
+> [!NOTE]  
+> Dieser Server nimmt zwei SRTLA-Streams und kombiniert sie zu einem einzigen SRT-Stream, wie in der [Übersicht](#overview) dargestellt.
 
-> [!IMPORTANT]   
+> [!IMPORTANT]  
 > Dieser Dienst kostet 10 USD.
 
-## 2.a - Erstelle ein Konto bei [GitHub](https://github.com/signup) *(Falls du bereits eins hast, springe direkt zur Anmeldung)*  
- - Danach musst du deine E-Mail-Adresse verifizieren und dich [einloggen](https://github.com/login).  
+2.a - Erstelle ein Konto bei [GitHub](https://github.com/signup) *(Falls du bereits eines hast, fahre mit der Anmeldung fort).*  
+ - Verifiziere deine E-Mail-Adresse und [melde dich an](https://github.com/login).  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/bafd6a15-7ec2-4f3e-8a1f-7737e41d9a8f" height="600">  
 
-## 2.b - Nach der Anmeldung öffne die [Belabox Sponsorship](https://github.com/sponsors/rationalsa) Seite  
- - Scrolle nach unten und wähle die **10 USD pro Monat**-Stufe, die einen SRT/SRTLA-Relay-Server beinhaltet.  
- - Gib deine Rechnungsinformationen ein und hinterlege eine Zahlungsmethode *(nur Kreditkarte oder PayPal werden unterstützt)*.  
- - Alternativ können deine Zuschauer [Gutscheine](https://shop.belabox.net/product/belabox-cloud-voucher) für mehrere Monate kaufen.
+2.b - Nach der Anmeldung öffne die [Belabox Sponsorship](https://github.com/sponsors/rationalsa) Seite.  
+ - Scrolle nach unten und wähle das **10 USD pro Monat**-Paket, das einen SRT/SRTLA-Relay-Server beinhaltet.  
+ - Gib deine Rechnungsdaten ein und hinterlege eine Zahlungsmethode *(nur Kreditkarte oder PayPal werden unterstützt).*  
+ - Alternativ können Zuschauer [Gutscheine](https://shop.belabox.net/product/belabox-cloud-voucher) für mehrere Monate kaufen.
 
-## 2.c - Sobald du gesponsert hast oder einen Gutschein besitzt, öffne die [Belabox Cloud](https://cloud.belabox.net) Seite und  
- - melde dich mit deinem GitHub-Konto an bzw. autorisiere es.  
+2.c - Sobald du gesponsert hast oder einen Gutschein besitzt, öffne die [Belabox Cloud](https://cloud.belabox.net) Seite.  
+ - Melde dich mit deinem GitHub-Konto an bzw. autorisiere es.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/5385a7b6-e1c4-42ac-a5a1-729cf53dc732" height="600">  
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/f8b19ac5-7862-4097-8701-78001048d003" height="600">  
 
-## 2.d - Klicke oben auf der Seite auf die **3 Linien** und dann auf **SRT(LA) relays**  
+2.d - Klicke oben auf der Seite auf die **3 Linien** und dann auf **SRT(LA) relays**.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/4c33128e-253c-493e-8d40-2c19e67a2389" height="600">  
 
-## 2.e - Klicke auf **Hinzufügen** und ändere den Namen. Wähle den **Server**, der deinem Standort am nächsten liegt.  
+2.e - Klicke auf **Hinzufügen**, ändere den Namen und wähle den **nächstgelegenen Server**.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/8425c1a1-add3-40d1-8082-b03312429539" height="600">  
 
-## 2.f - Scrolle nach unten, bis du **Moblin-Einstellungen** siehst, und tippe auf den **Automatisch zu Moblin hinzufügen**-Button, um die richtigen Informationen automatisch in Moblin einzutragen.  
+2.f - Scrolle nach unten, bis du **Moblin-Einstellungen** siehst, und tippe auf **Automatisch zu Moblin hinzufügen**, um die richtigen Informationen automatisch einzutragen.  
 
 ---
-# 3 - Streaming-Telefon
+3 - Streaming-Telefon
 
-## 3.a - Öffne die **IRL Pro App** und gehe zum **Zahnrad-Symbol** *(Einstellungen)* oben links  
+3.a - Öffne die **IRL Pro App** und gehe zum **Zahnrad-Symbol** *(Einstellungen)* oben links.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/626275d4-07ad-4d98-bc62-d89d06ec9624" width="600">  
 
-## 3.b - Gehe zu **Verbindungen**, wo du die **Belabox Cloud** sehen solltest. Tippe auf **Neue Verbindung**.  
+3.b - Gehe zu **Verbindungen**, wo du die **Belabox Cloud** sehen solltest. Tippe auf **Neue Verbindung**.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/7d4997bb-1b4d-412e-89b2-d06f12ec8516" height="600">  
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/d5471b2e-eb11-4020-a84c-9a6fcdd3c3dc" height="600">  
 
-## 3.c - Tippe oben auf **TWITCH.TV**, gib deinen Benutzernamen und deinen [Streamkey](https://dashboard.twitch.tv/settings/stream) ein und speichere.  
+3.c - Tippe oben auf **TWITCH.TV**, gib deinen Benutzernamen und deinen [Streamkey](https://dashboard.twitch.tv/settings/stream) ein und speichere.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/be697be2-845b-4fa9-b936-79a472b474bf" height="600">  
 
-## 3.d - Gehe zurück ins Menü und tippe auf **Streamer**.  
+3.d - Gehe zurück ins Menü und tippe auf **Streamer**.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/7563e4e2-010c-4dc5-8b4e-3b8ec58db229" height="600">  
 
-## 3.e - Tippe auf **Twitch-Benutzername** und gib deinen Namen ein. Scrolle nach unten und trage deinen [Streamlabs API Key](https://streamlabs.com/dashboard#/settings/api-settings) ein. *(Falls du Chat-Einstellungen ändern musst, gehst du erneut hierhin.)*  
+3.e - Tippe auf **Twitch-Benutzername**, gib deinen Namen ein und bestätige. Scrolle nach unten und trage deinen [Streamlabs API Key](https://streamlabs.com/dashboard#/settings/api-settings) ein. *(Falls du Chat-Einstellungen ändern musst, gehst du erneut hierhin.)*  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/4883fb7a-0038-4426-b2de-c9c245f83e16" height="600">  
 
-## 3.f - Gehe zurück ins Menü und tippe auf **Video**.  
+3.f - Gehe zurück ins Menü und tippe auf **Video**.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/06bd7f40-ca4d-487c-b084-8e1a190e2bde" height="600">  
 
-## 3.g - Gehe zu **Video** und stelle folgende Einstellungen ein:  
+3.g - Gehe zu **Video** und stelle folgende Einstellungen ein:  
  - **Auflösung:** 1920x1080p  
  - **FPS:** 30 feste Rate  
  - **Bitrate an Auflösung anpassen:** Aus  
@@ -138,18 +138,18 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/e6166d54-aa8a-4301-8afb-3a4684428f9f" height="600">  
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/eece480d-b620-42a5-825e-28f1b5d7b701" height="600">  
 
-## 3.h - Gehe zurück ins Menü und tippe auf **Overlays**, dann auf **Web Overlays**.  
+3.h - Gehe zurück ins Menü und tippe auf **Overlays**, dann auf **Web Overlays**.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/1a04874c-6158-4af1-acbb-1825b638acd4" height="600">  
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/8bab03e7-7b0d-4ad8-a96a-3e4ec995a504" height="600">  
 
-## 3.i - Wir wollen Alerts in IRL Pro hinzufügen. Dafür öffnen wir das Alerts-Dashboard im Browser:  
+3.i - Um Alerts in IRL Pro hinzuzufügen, öffne das Alerts-Dashboard im Browser:  
  - [Streamlabs](https://streamlabs.com/dashboard#/alertbox) und kopiere die Widget-URL.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/255e3ef7-cbd5-4cfa-84a8-17d68c78ccb6" height="600">  
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/82365cc6-ade2-458f-b583-ccad4b0b62f1" height="600">  
 
-## 3.j - Kehre zurück zu IRL Pro und erstelle ein **Neues Web-Overlay**:  
+3.j - Kehre zurück zu IRL Pro und erstelle ein **Neues Web-Overlay**:  
  - **Name:** Alerts  
  - **URL:** Füge die zuvor kopierte Streamlabs-Alertbox-URL ein  
  - **Breite:** 600  
@@ -159,33 +159,35 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/c793f03a-6526-4cf1-8ca6-b10b15570d00" height="600">  
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/436e5036-a8f9-44e2-9fb6-c7e5af1d3e06" height="600">  
 
-## 3.k - Nachdem du gespeichert hast, stelle sicher, dass **Alerts eingeschaltet** ist.  
+3.k - Nachdem du gespeichert hast, stelle sicher, dass **Alerts eingeschaltet** ist.  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/6bde279b-c60f-4e59-a8a6-90edfbf6685d" height="600">  
 
-## 3.l - Kehre zur **Hauptansicht** zurück und überprüfe, ob der **Chat geladen wird** und **Alerts funktionieren**.  
+3.l - Kehre zur **Hauptansicht** zurück und überprüfe, ob der **Chat geladen wird** und **Alerts funktionieren**.  
  - Streamlabs *(Test-Alerts sind in der [Alertbox](https://streamlabs.com/dashboard#/alertbox) verfügbar.)*  
 
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/80417b7c-d629-44ac-b3ad-013e5eaf0842" width="600">  
 
 ---
-# 4 - Windows-PC
-Jeder normale PC oder Laptop kann verwendet werden. Am besten wird er direkt per Kabel mit deinem Heimrouter verbunden.
+4 - Windows-PC
+
+Jeder normale PC oder Laptop kann verwendet werden. Am besten wird er direkt per Kabel mit deinem Heimrouter verbunden.  
 Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du dir Mini-PCs anschauen.
 
 > [!WARNING]  
 > Dieser PC muss während des gesamten Streams eine **STABILE** Internetverbindung mit mindestens 6 Mbit Upload haben *[Speedtest](https://www.nperf.com)*.
 
-## 4.1 OBS
+4.1 OBS
+
 > [!NOTE]  
 > Dies ist das Programm, das den Stream vom Relay-Server empfängt und ihn zurück in das alte RTMP/h.264-Format konvertiert, um ihn direkt an Twitch zu senden. Hier hast du viele Möglichkeiten, Videos, Texte und Musik hinzuzufügen, um deine Zuschauer zu unterhalten, während du dich wieder verbindest.
 
-### 4.1.a - **[OBS Studio](https://obsproject.com/download) herunterladen**
-### 4.1.b - **OBS Studio installieren und starten**
+4.1.a - **[OBS Studio](https://obsproject.com/download) herunterladen**
+4.1.b - **OBS Studio installieren und starten**
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/3555ea78-d6bd-440b-9bdc-15a91799f1a2" width="400">
 
-### 4.1.c - Im Auto-Wizard:
+4.1.c - Im Auto-Wizard:
 - Optimieren für Streaming
 - **Auflösung:** 1920x1080
 - **FPS:** 30
@@ -198,161 +200,124 @@ Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/a6164a26-5ba9-4219-9c22-c2eb6abfa0e1" height="400">
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/bafb9a3c-1d6e-4909-9c78-d0381c521b30" height="400">
 
-### 4.1.d - **In OBS** unten links die folgenden **Szenen hinzufügen**
+4.1.d - **In OBS** unten links die folgenden **Szenen hinzufügen**
 - Start
 - Live
 - Low
 - Brb
 - End
 
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/344aaedc-92df-41c1-9e65-1dd6223deb0d" width="600">
-
-### 4.1.e - Klicke auf die Live-Szene und füge eine **Medienquelle** mit dem Namen **Belabox Cloud** hinzu
-- Ein neues Einstellungsfenster öffnet sich
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/dedc65b3-03c6-4ad0-a2f6-ef907ff541cc" width="600">
-
-### 4.1.f - **[Belabox Cloud](https://cloud.belabox.net/#relays) öffnen**
-- Gehe zu **SRT(LA) relays**
-- Scrolle nach unten, bis du die **OBS-Medienquellen-Einstellungen** siehst
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/d6669e01-035c-4879-aa2e-df7ebe333b9a" width="600">
-
-### 4.1.g - **Zurück zu OBS wechseln** und dieselben Einstellungen setzen
-- **Lokale Datei deaktivieren**
-- Netzwerkpuffer auf 1 MB setzen
-- **Eingabe von Belabox Cloud kopieren**
-- Wiederverbindungsverzögerung auf 2s setzen
-- **Datei schließen, wenn inaktiv aktivieren**
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/fb5d68c6-b45b-4b40-8f70-ad1aaf224e78" width="600">
-
-### 4.1.h - Rechtsklick auf die **Belabox Cloud-Quelle**, dann **Transformieren** → **An Bildschirm anpassen** *(oder wähle sie aus und drücke STRG+F)*
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/c993bb43-a3ea-4bc5-a75a-c46858d2305e" width="600">
-
-### 4.1.i - **Belabox-Cloud-Quelle kopieren** *(STRG+C)* und in die **Low-Szene einfügen**
-### 4.1.j - **Zu den Einstellungen wechseln**, dann **Audio**
-- **Alle globalen Audiogeräte deaktivieren**
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/20b58802-fc64-491d-9d74-3bd0aef2d93d" width="500">
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/87a30f26-a525-47c2-9427-b0a1ffbe7067" width="500">
-
-### 4.1.k - **In der oberen Menüleiste auf "Tools" klicken**, dann **Websocket-Server-Einstellungen**
-- **WebSocket-Server aktivieren** und mit **OK** bestätigen
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/cec9078c-a2e2-45dc-9bec-24041f19a98f" width="500">
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/918e7d93-3191-4080-b5e3-3d1c8c4b9d85" width="500">
-
 ---
-## 4.2 NOALBS
+4.2 NOALBS
+
 > [!NOTE]  
-> Dies ist das Programm, das OBS über Chat-Befehle steuert und Szenen automatisch umschaltet, wenn der Stream vom Telefon erkannt oder verloren wird.
+> Dies ist das Programm, das OBS über Chat-Befehle steuert und automatisch Szenen umschaltet, wenn der Stream vom Telefon erkannt oder verloren wird.
 
-### 4.2.a - **[NOALBS herunterladen](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching/releases)**
-Lade die Datei für dein System herunter und entpacke sie an einem Ort deiner Wahl *(Empfohlen: einen "Stream"-Ordner mit einem "NOALBS"-Unterordner erstellen)*.  
+4.2.a - **[NOALBS herunterladen](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching/releases)**, entpacke es an einen beliebigen Ort *(empfohlen: einen „Stream“-Ordner mit einem Unterordner für NOALBS erstellen).*  
 
-### 4.2.b - Im NOALBS-Ordner sollten nun folgende drei Dateien sein:
+4.2.b - In diesem Ordner sollten jetzt die folgenden Dateien sein:
 - `.env`
 - `config.json`
 - `noalbs`
 
-### 4.2.c - NOALBS benötigt Zugriff auf ein Twitch-Konto, um auf Chat-Befehle zu reagieren.
-Melde dich mit dem gewünschten Twitch-Konto an und öffne dann diesen **[Link](https://b3ck.com/twitch/oauth)**. Klicke auf **Mit Twitch autorisieren** und kopiere den gesamten Code von der Webseite.
+4.2.c - NOALBS benötigt Zugriff auf ein Twitch-Konto, um auf Chat-Befehle zu reagieren.  
+Melde dich mit deinem bevorzugten Twitch-Konto an und öffne diesen **[Link](https://b3ck.com/twitch/oauth)**.  
+- Klicke auf **Mit Twitch autorisieren** und kopiere den gesamten Code von der Website.  
 
 <img src="https://github.com/user-attachments/assets/d668b651-5f7e-45b3-9e1a-e26eb5174b19" height="200">
 <img src="https://github.com/user-attachments/assets/44ca3f4b-4ea8-47a8-868e-180fc5c62ba7" height="180">
 
-### 4.2.d - Öffne die `.env` Datei mit einem Texteditor
-- Ersetze den gesamten Inhalt mit dem zuvor kopierten Code
+4.2.d - Öffne die `.env` Datei mit einem Texteditor.  
+- Ersetze den gesamten Inhalt mit dem kopierten Code.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/33dabd80-1a70-4ac1-8451-b942200767b0" height="40">
 
-- Speichern und schließen
+- Speichern und schließen.  
 
-### 4.2.e - Lade die [config.json](../config.json) Datei herunter und ersetze deine lokale Datei damit.
-- Öffne die `config.json` Datei mit einem Texteditor
-- Ersetze alle drei Vorkommen von *REPLACE_STREAMER_NAME* mit deinem Twitch-Benutzernamen
+4.2.e - Lade die [config.json](../config.json) Datei herunter und ersetze deine lokale Datei damit.  
+- Öffne `config.json` mit einem Texteditor.  
+- Ersetze alle Vorkommen von *REPLACE_STREAMER_NAME* mit deinem Twitch-Benutzernamen.  
 
-### 4.2.f - Öffne die **[Belabox Cloud](https://cloud.belabox.net/#relays)** Seite und navigiere zu **SRT(LA) relays**.
-- Scrolle nach unten zu **NOALBSv2 Konfiguration**
-- Ersetze *REPLACE_BELLABOX_URL* mit der URL aus der Belabox-Seite
-- Ersetze *REPLACE_BELLABOX_INGEST_KEY* mit dem letzten Teil der URL
+4.2.f - Öffne die **[Belabox Cloud](https://cloud.belabox.net/#relays)** Seite und navigiere zu **SRT(LA) relays**.  
+- Scrolle nach unten zu **NOALBSv2 Konfiguration**.  
+- Ersetze *REPLACE_BELLABOX_URL* mit der URL von der Belabox-Seite.  
+- Ersetze *REPLACE_BELLABOX_INGEST_KEY* mit dem letzten Teil der URL.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/fe194e73-c223-4327-9680-af1b570869b1" height="350">
 
-### 4.2.g - Gehe zurück zu OBS, öffne die WebSocket-Einstellungen und klicke auf **Verbindungsinfo anzeigen**.
-- Kopiere das **Server-Passwort**
-- Ersetze *REPLACE_OBS_WEBSOCKET_PASSWORD* mit den kopierten Daten
+4.2.g - Gehe zurück zu OBS, öffne die WebSocket-Einstellungen und klicke auf **Verbindungsinfo anzeigen**.  
+- Kopiere das **Server-Passwort**.  
+- Ersetze *REPLACE_OBS_WEBSOCKET_PASSWORD* mit den kopierten Daten.  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/ab6652a4-7ff0-41f6-8746-1290e2d243ba" height="200">
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/7f04f75c-0611-43d6-8831-5fc8487981db" height="300">
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/f16885ce-8c51-4bb4-92fa-b0e7311f3b41" height="100">
 
-### 4.2.h - Speichern und schließen der `config.json` Datei.
-*Detaillierte Infos auf der [NOALBS GitHub-Seite](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*.
+4.2.h - Speichern und schließen der `config.json` Datei.  
+*Detaillierte Informationen auf der [NOALBS GitHub-Seite](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching).*  
 
-### 4.2.i - **Starte das `noalbs` Programm**
-- Falls Fehler auftreten, werden sie hier angezeigt.
+4.2.i - **Starte das `noalbs` Programm**.  
+- Falls Fehler auftreten, werden sie hier angezeigt.  
 
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/0329e383-07f3-40e8-8f80-de3d0fa3391d" height="270">
+<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/0329e383-07f3-40e8-8f80-de3d0fa3391d" height="270">  
 
-### 4.2.j - **Erstelle eine Verknüpfung**, um das Programm einfacher zu starten
-- Rechtsklicke auf die `noalbs` Datei, wähle **Verknüpfung erstellen** und ziehe die Verknüpfung beispielsweise auf den Desktop.
+4.2.j - **Erstelle eine Verknüpfung**, um das Programm einfacher zu starten.  
+- Rechtsklicke auf die `noalbs` Datei, wähle **Verknüpfung erstellen** und ziehe die Verknüpfung auf den Desktop.  
 
 ---
-# 5 - OBS verschönern
-Die Grundeinrichtung ist abgeschlossen, aber die Szenen sind noch ziemlich leer.
+5 - OBS verschönern
+
+Die Grundeinrichtung ist abgeschlossen, aber die Szenen sind noch ziemlich leer. 
 Nachfolgend findest du eine Erklärung, welche Szene wofür verwendet wird und was typischerweise hinzugefügt wird.
 
 > [!NOTE]  
 > Die folgenden Vorschläge sind nur Empfehlungen. Du kannst dein Design frei gestalten.
 
-**Start**
+Start
 - Wird zu Beginn jedes Streams angezeigt, bis das Telefon live ist.
 - Oft wird ein Video mit Musik als Hintergrund verwendet.
 - Einfacher Text: "Starting Soon ..." ("Gleich geht's los ...")
 
-**Live**
+Live
 - Sobald eine Verbindung vom Telefon zu OBS besteht, wird diese Szene angezeigt.
 - Zusätzliche Inhalte sind nicht nötig, da Overlays direkt auf dem Telefon laufen sollten.
 
-**Low**
+Low
 - Wird angezeigt, wenn die Verbindung zum Telefon schlechte Qualität hat.
 - Einfacher Text: "Low Bitrate".
 
-**Brb**
+Brb
 - Wird aktiviert, wenn die Verbindung zum Telefon komplett verloren geht oder du den Stream absichtlich beendest *(z. B. aus Datenschutzgründen)*.
 - Oft werden alte VODs oder Clips verwendet. *(Für Clips empfiehlt sich ein "Clips"-Ordner und das Hinzufügen einer VLC-Medienquelle – benötigt den [VLC Media Player](https://www.videolan.org/vlc/)).*
 - Einfacher Text: "Be right back" ("Bin gleich zurück")
 - Diese Szene kann auch genutzt werden, wenn du eine Toilettenpause machst oder kurz privat sprechen musst.
 
-**Ende**
+Ende
 - Kann durch Eingabe von `!end` im Twitch-Chat aktiviert werden.
 - Ähnlich wie die Startszene: Video mit Musik.
 - Einfacher Text: "Ending Stream" ("Stream beendet").
 
 ---
-# 6 - Normaler Betrieb
+6 - Normaler Betrieb
+
 > [!NOTE]  
 > Vor **jedem** IRL-Stream müssen die folgenden Schritte durchgeführt werden:
 
-### 6.a - **Starte deinen PC zu Hause** und stelle sicher, dass er mit dem Internet verbunden ist und nicht automatisch herunterfährt.  
-### 6.b - **Starte OBS & NOALBS** auf deinem PC.  
-### 6.c - **Gehe nach draußen** an den Ort, an dem du streamen möchtest.  
-### 6.d - Gib `!start` im **Twitch-Chat** ein, um den Stream auf Twitch zu starten.  
-### 6.e - **Gehe in IRL Pro live** → Nach wenigen Sekunden wechselt OBS zur **Live-Szene**.  
-### 6.f - Falls du die Verbindung auf dem Telefon verlierst oder beendest → Nach wenigen Sekunden wird auf die **Brb-Szene** umgeschaltet.  
-### 6.g - Sobald die Verbindung vom Telefon wiederhergestellt ist → Nach wenigen Sekunden wird zurück zur **Live-Szene** gewechselt.  
-### 6.h - **Beende oder starte den Stream manuell in IRL Pro**, um zwischen `!brb` und `!live` zu wechseln.  
-### 6.i - **Beende den Stream** automatisch, wenn du jemanden raidest oder per Chat-Befehl `!stop`.  
+6.a - **Starte deinen PC zu Hause** und stelle sicher, dass er mit dem Internet verbunden ist und nicht automatisch herunterfährt.  
+6.b - **Starte OBS & NOALBS** auf deinem PC.  
+6.c - **Gehe nach draußen** an den Ort, an dem du streamen möchtest.  
+6.d - Gib `!start` im **Twitch-Chat** ein, um den Stream auf Twitch zu starten.  
+6.e - **Gehe in IRL Pro live** → Nach wenigen Sekunden wechselt OBS zur **Live-Szene**.  
+6.f - Falls du die Verbindung auf dem Telefon verlierst oder beendest → Nach wenigen Sekunden wird auf die **Brb-Szene** umgeschaltet.  
+6.g - Sobald die Verbindung vom Telefon wiederhergestellt ist → Nach wenigen Sekunden wird zurück zur **Live-Szene** gewechselt.  
+6.h - **Beende oder starte den Stream manuell in IRL Pro**, um zwischen `!brb` und `!live` zu wechseln.  
+6.i - **Beende den Stream** automatisch, wenn du jemanden raidest oder per Chat-Befehl `!stop`.  
 
 > [!IMPORTANT]  
 > Bei jedem Szenenwechsel in OBS erscheint eine Textnachricht im Chat.  
 
 ---
+7 - Zweite Internetverbindung
 
-# 7 - Zweite Internetverbindung  
 > [!NOTE]  
 > Dies ist optional, kann aber in vielen Fällen die Stabilität des Streams erheblich verbessern. Es verhindert jedoch keine Ausfälle in Bereichen ohne Netzabdeckung, wie z. B. tief in den Bergen oder Tunneln.
 
@@ -363,37 +328,34 @@ Wie in der [Übersicht](#overview) dargestellt, kann eine zweite Internetverbind
 > Die zweite SIM-Karte verbraucht etwa **50 % des gesamten Datenvolumens**.  
 
 ---
+8 - Direkt zu Twitch streamen
 
-# 8 - Direkt zu Twitch streamen  
+Falls der Relay-Server oder dein Heim-PC aus irgendeinem Grund nicht funktioniert, kannst du in der IRL Pro App ganz einfach zum direkten Streaming auf Twitch wechseln.
 
-Falls der Relay-Server oder dein Heim-PC aus irgendeinem Grund nicht funktioniert, kannst du in der IRL Pro App ganz einfach zum direkten Streaming auf Twitch wechseln.  
-
-### 8.a - Gehe zu **Einstellungen** > **Verbindungen** und schalte **Belabox aus** und **Twitch ein**.  
+8.a - Gehe zu **Einstellungen** > **Verbindungen** und schalte **Belabox aus** und **Twitch ein**.  
 <details>
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/452ea3a0-76e7-4cf1-8f16-4e9f531f2923" height="600">
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/45b2d58a-e62e-426f-bc2c-e0af3e1d582b" height="600">  
 </details>
 
-### 8.b - Gehe zurück zu **Einstellungen** > **Video**. Scrolle nach unten und aktiviere **Bitrate an Auflösung anpassen** wieder und stelle das **Format** auf Auto.  
+8.b - Gehe zurück zu **Einstellungen** > **Video**. Scrolle nach unten und aktiviere **Bitrate an Auflösung anpassen** wieder und stelle das **Format** auf Auto.  
 <details>
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/011c5d28-461d-4c5a-a0ff-9f09bcf24de6" height="600">
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/f2bbe20d-c1d8-408f-90c0-7e54a56b2936" height="600">
 </details>
 
 ---
-# 9 - Zusätzliche Hilfe  
-### IRL App  
-Hier ist deren [Discord](https://discord.gg/irlpro).  
+9 - Zusätzliche Hilfe
 
-### OBS  
-Du kannst deren [Forum](https://obsproject.com/forum/) besuchen oder eine der zahlreichen YouTube-Anleitungen anschauen.  
+IRL App
+Hier ist deren [Discord](https://discord.gg/irlpro).
 
-### NOALBS  
-Hier ist die Anleitung auf [GitHub](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching) sowie deren [Discord](https://discord.gg/efWu5HWM2u).  
+OBS
+Du kannst deren [Forum](https://obsproject.com/forum/) besuchen oder eine der zahlreichen YouTube-Anleitungen anschauen.
 
----  
-## Ko-Fi  
-<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Möchtest du mich unterstützen?](https://ko-fi.com/naginreed)  
+NOALBS
+Hier ist die Anleitung auf [GitHub](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching) sowie deren [Discord](https://discord.gg/efWu5HWM2u).
 
-
-
+---
+Ko-Fi
+<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Möchtest du mich unterstützen?](https://ko-fi.com/naginreed)
