@@ -75,6 +75,7 @@ https://comparison.dallnett.com/
 [![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac)
 
 <img src="https://github.com/user-attachments/assets/55bb4690-ce13-4f1f-b418-7426f6ddf54f" width="600">
+
 ---
 ## 方案 C - 全本地设置
 你可以将所有[组件](#组件)转移到你的本地 PC，而无需额外成本。
