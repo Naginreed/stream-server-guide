@@ -29,7 +29,7 @@ IRL 스트리밍을 하다 보면 화장실을 가거나 민감한 정보를 가
 마찬가지로 휴대폰 신호가 완전히 끊기거나 배터리가 방전될 때도 같은 문제가 발생합니다.
 
 > [!NOTE]  
-> **Everything that happens on the phone affects directly your stream**
+> **전화에서 발생하는 모든 일은 귀하의 스트림에 직접 영향을 미칩니다.**
 
 <img src="https://github.com/user-attachments/assets/13ce58f3-6930-4711-bfaf-4e7716c1d48d" width="600">
 
