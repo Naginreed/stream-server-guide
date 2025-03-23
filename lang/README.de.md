@@ -1,18 +1,18 @@
-# Streaming-Server
+# Stream-Server
 [![English](https://img.shields.io/badge/English-English-orange.svg)](../README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](lang/README.es.md)
-[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](lang/README.zh-CN.md)
-[![French](https://img.shields.io/badge/French-Français-orange.svg)](lang/README.fr.md)
-[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](lang/README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](lang/README.pt-BR.md)
-[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](lang/README.ja.md)
-[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](lang/README.ru.md)
-[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](lang/README.ko.md)
-[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](lang/README.ar.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
 
 > [!WARNING]
-> Diese Übersetzungen wurden mit KI generiert und können Fehler enthalten.
-> Gerne können Korrekturen über einen Pull-Request eingereicht werden.
+> Diese Übersetzungen wurden mit KI generiert und können Fehler enthalten.  
+> Gerne können Korrekturen per Pull-Request eingereicht werden.
 
 [![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.de.md)
 [![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.de.md)
@@ -20,7 +20,7 @@
 [![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.de.md)
 
 > [!TIP]
-> Springe direkt zu meinem günstigen und einfachen Setup, indem du deine Betriebssysteme oberhalb auswählst.
+> Springe direkt zu meiner einfachen und günstigen Einrichtung, indem du oben dein Betriebssystem auswählst.
 
 ---
 ## Was ist ein Streaming-Server?
