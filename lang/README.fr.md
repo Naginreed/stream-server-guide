@@ -66,7 +66,7 @@ Si vous avez un bon PC et une bonne connexion Internet à domicile, vous pouvez 
 
 - **Fournisseurs connus**  
 [Belabox Cloud](https://cloud.belabox.net/), [IRLHosting](https://irlhosting.com/whmcs/aff.php?aff=35), [IRLServer](https://irlserver.com/), et [AntiSCUFF](https://antiscuff.com/cloud-obs-packages/)  
-- **Guides**
+- **Guides**  
 [![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows.README.fr.md)
 [![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac.README.fr.md)
 [![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows.README.fr.md)
