@@ -177,7 +177,7 @@ Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du
 > [!WARNING]  
 > Dieser PC muss während des gesamten Streams eine **STABILE** Internetverbindung mit mindestens 6 Mbit Upload haben *[Speedtest](https://www.nperf.com)*.
 
-# 4.1 OBS
+## 4.1 OBS
 
 > [!NOTE]  
 > Dies ist das Programm, das den Stream vom Relay-Server empfängt und ihn zurück in das alte RTMP/h.264-Format konvertiert, um ihn direkt an Twitch zu senden. Hier hast du viele Möglichkeiten, Videos, Texte und Musik hinzuzufügen, um deine Zuschauer zu unterhalten, während du dich wieder verbindest.
@@ -208,7 +208,7 @@ Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du
 - End
 
 ---
-# 4.2 NOALBS
+## 4.2 NOALBS
 
 > [!NOTE]  
 > Dies ist das Programm, das OBS über Chat-Befehle steuert und automatisch Szenen umschaltet, wenn der Stream vom Telefon erkannt oder verloren wird.
