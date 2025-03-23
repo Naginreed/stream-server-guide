@@ -1,0 +1,110 @@
+{
+  "user": {
+    "id": null,
+    "name": "REPLACE_STREAMER_NAME",
+    "passwordHash": null
+  },
+  "switcher": {
+    "bitrateSwitcherEnabled": true,
+    "onlySwitchWhenStreaming": false,
+    "instantlySwitchOnRecover": false,
+    "autoSwitchNotification": true,
+    "retryAttempts": 5,
+    "triggers": {
+      "low": 600,
+      "rtt": 1500,
+      "offline": 300,
+      "rttOffline": null
+    },
+    "switchingScenes": {
+      "normal": "Live",
+      "low": "Low",
+      "offline": "Brb"
+    },
+    "streamServers": [
+      {
+        "streamServer": {
+          "type": "Belabox",
+          "statsUrl": "REPLACE_BELLABOX_URL",
+          "publisher": "REPLACE_BELLABOX_INGEST_KEY"
+        },
+        "name": "BELABOX cloud",
+        "priority": 0,
+        "overrideScenes": null,
+        "dependsOn": null,
+        "enabled": true
+      }
+    ]
+  },
+  "software": {
+    "type": "Obs",
+    "host": "localhost",
+    "password": "REPLACE_OBS_WEBSOCKET_PASSWORD",
+    "port": 4455,
+    "collections": {
+      "twitch": {
+        "profile": "Untitled",
+        "collection": "Untitled"
+      },
+      "kick": {
+        "profile": "kick",
+        "collection": "kick_scenes"
+      }
+    }
+  },
+  "chat": {
+    "platform": "Twitch",
+    "username": "REPLACE_STREAMER_NAME",
+    "admins": [
+      "REPLACE_STREAMER_NAME"
+    ],
+    "language": "EN",
+    "prefix": "!",
+    "enablePublicCommands": false,
+    "enableModCommands": true,
+    "enableAutoStopStreamOnHostOrRaid": true,
+    "announceRaidOnAutoStop": true,
+    "commands": {
+      "EndingScene": {
+        "permission": "Mod",
+        "alias": [
+          "end"
+        ]
+      },
+      "Switch": {
+        "permission": "Mod",
+        "alias": [
+          "ss",
+          "sw"
+        ]
+      },
+      "Fix": {
+        "permission": "Mod",
+        "alias": [
+          "f"
+        ]
+      },
+      "Bitrate": {
+        "permission": "Mod",
+        "alias": [
+          "b"
+        ]
+      }
+    }
+  },
+  "optionalScenes": {
+    "starting": "Start",
+    "ending": "End",
+    "privacy": null,
+    "refresh": null
+  },
+  "optionalOptions": {
+    "twitchTranscodingCheck": false,
+    "twitchTranscodingRetries": 5,
+    "twitchTranscodingDelaySeconds": 15,
+    "offlineTimeout": 900,
+    "recordWhileStreaming": false,
+    "switchToStartingSceneOnStreamStart": true,
+    "switchFromStartingSceneToLiveScene": true
+  }
+}
