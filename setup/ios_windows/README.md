@@ -1,26 +1,45 @@
-# General Info
-This Guide describes a **Cheap and Easy** Solution for
-- better **IRL**-Streaming 
-- **IPhone (iOS)** as Streaming Phone
-- **Windows** as Home PC
+#  Guide for <a href=""><img src="https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue" height="30"></a>
 
-> [!NOTE]  
-> There are completely "free" methods, but they need more technical expertise and if wrongly configured could be a security risk for your Home PC.
-> With this Method you don't open up purposely any holes in your Security. *(No fixed IP | No PF | No FW Changes)*
+[![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
+
+> [!WARNING]
+> These translations were generated using AI and may contain errors.  
+> Feel free to submit corrections via pull request.
+
+
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../ios_mac/README.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../android_windows/README.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../android_mac/README.md)
+
+> [!TIP]
+> If you choose the wrong OS, use the Buttons above.
 
 > [!IMPORTANT]  
 > <details>
 > <summary>You can use the 3 Lines at the top right to jump to any Section of the Guide</summary>
 > <img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/ddcfa25e-e806-48a7-9882-60fdc8794947">
 > </details>
----
-## Ko-Fi
-<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Wanna help me out?](https://ko-fi.com/naginreed)
 
 ---
-## Map
+# General Info
+This Guide describes a **Cheap and Easy** Solution for
+- better **IRL**-Streaming 
+- **IPhone (iOS)** as Streaming Phone
+- **Windows** as Home PC
 
-<img src="https://github.com/Naginreed/irl-cae_iOS-Win/assets/71943093/1b7cc70e-8250-405b-865c-3a9b3b837140">
+---
+## Overview
+
+<img src="https://github.com/user-attachments/assets/acb012f3-b7ce-4e62-ae6b-86057db87be9" width="600">
 
 > [!NOTE]  
 > At first this looks pretty complicated, but we will go Step-by-Step with Pictures *(when available)* trough the whole Setup Process.
@@ -50,7 +69,7 @@ This Guide describes a **Cheap and Easy** Solution for
 # 2 - SRT/SRTLA Relay
 
 > [!NOTE]   
-> This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Map](#map)
+> This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Overview](#overview)
 
 > [!IMPORTANT]   
 > This Service costs $10 USD.
@@ -213,13 +232,13 @@ Any normal PC or Laptop can be used, best cabled directly to your Home Internet 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/33dabd80-1a70-4ac1-8451-b942200767b0" height="40">
 
  - save and close the file
-[config.json](config.json)  
 
-4.2.f - **Open** the **config.json** File with a Text-Editor  
+4.2.f - Download the [config.json](../config.json) from here and replace it with your local file. 
+ - **Open** the **config.json** File with a Text-Editor  
  - replace all 3x of *REPLACE_STREAMER_NAME* with your Twitch Account Name
 
-4.2.g - open the Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
- - Scroll down to **NOALBSv2 configuration**
+4.2.g - Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
+ - Scroll down to **NOALBSv2 configuration**  
  - replace *REPLACE_BELLABOX_URL* with the URL from the Belabox Page
  - replace *REPLACE_BELLABOX_INGEST_KEY* with the last Part of the URL
 
@@ -233,7 +252,7 @@ Any normal PC or Laptop can be used, best cabled directly to your Home Internet 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/7f04f75c-0611-43d6-8831-5fc8487981db" height="300">
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/f16885ce-8c51-4bb4-92fa-b0e7311f3b41" height="100">
 
-4.2.i - Save and close the file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
+4.2.i - Save and close the config.json file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
 4.2.j - Start the **noalbs** programm. It should look like the picture below. Errors are also shown here  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/0329e383-07f3-40e8-8f80-de3d0fa3391d" height="270">
@@ -293,7 +312,7 @@ Following is an Explanation on what Scene is used for what and what People norma
 > [!NOTE]  
 > This is optional and improves stream stability alot in many cases. But it doesnt prevent outtages in No Service Areas like deep into the Mountains or Tunnels.
 
-As seen in the [Map](#map) there can be 2nd Internet Connection for your phone to reduce the chance of outtages for the Live Stream.  
+As seen in the [Overview](#overview) there can be 2nd Internet Connection for your phone to reduce the chance of outtages for the Live Stream.  
 Either a Mobile WiFi Router or a Second Phone with Mobile Hotspot active.  
 
 > [!IMPORTANT]  
@@ -302,21 +321,18 @@ Either a Mobile WiFi Router or a Second Phone with Mobile Hotspot active.
 ---
 # 8 - Stream directly to twitch  
 
-If for whatever reason the Relay or Home PC is not working you can easily switch back to direct Streaming in the Moblin App. 
-Check out this Youtube Video: [Moblin to Twitch (Direct) - Basic Setup Guide
-](https://www.youtube.com/watch?v=GbR0xfpJXJE)
+If for whatever reason the Relay or Home PC is not working you can easily switch back to direct Streaming in the Moblin App.  
 
-8.a - Got to **Settings** > **Connections** and Switch **Belabox off** and **Twitch on**  
-<details>
-<img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/452ea3a0-76e7-4cf1-8f16-4e9f531f2923" height="600">
-<img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/45b2d58a-e62e-426f-bc2c-e0af3e1d582b" height="600"> 
-</details>
+8.a - Got to **Settings** > **Streams** and Create  
+8.b - Tap on Twitch an follow the instructions  
+8.c - Go to **Video** and set the following settings  
+ - **Resolution:** 1920x1080p  
+ - **FPS:** fixed 30fps  
+ - **Bitrate:** 5800 kbps  
+ - **Codec:** h.264
 
-8.b - Go back to **Settings** then **Video**. Scroll down and turn **Bitrate matches resolution** back on and **Format** to Auto.  
-<details>
-<img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/011c5d28-461d-4c5a-a0ff-9f09bcf24de6" height="600">
-<img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/f2bbe20d-c1d8-408f-90c0-7e54a56b2936" height="600">
-</details>
+8.d - Go back then **active Twitch** and tap on it to enter. Set your Twitch Name and Twitch ID. *(You can get the ID from [here](https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/))*  
+8.e - Go back to **Settings** > **Streams**. Deactivate Belabox and activate Twitch
 
 ---
 # 9 - Additional Help  
@@ -326,3 +342,9 @@ Here is their [Discord](https://discord.gg/Tm6kf778)
 you can check their [Forum](https://obsproject.com/forum/) or just look up one of the hundreds of Youtube Tutorials
 ### NOALBS
 Here is the Guide on [Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching) and their [Discord](https://discord.gg/efWu5HWM2u)
+
+---
+## Ko-Fi
+<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Wanna help me out?](https://ko-fi.com/naginreed)
+
+
