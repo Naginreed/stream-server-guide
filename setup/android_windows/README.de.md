@@ -66,7 +66,7 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/a762e027-b75a-4d72-9667-12f7b032b98c" height="400">  
 
 ---
-2 - SRT/SRTLA-Relay
+# 2 - SRT/SRTLA-Relay
 
 > [!NOTE]  
 > Dieser Server nimmt zwei SRTLA-Streams und kombiniert sie zu einem einzigen SRT-Stream, wie in der [Übersicht](#overview) dargestellt.
@@ -101,7 +101,7 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 2.f - Scrolle nach unten, bis du **Moblin-Einstellungen** siehst, und tippe auf **Automatisch zu Moblin hinzufügen**, um die richtigen Informationen automatisch einzutragen.  
 
 ---
-3 - Streaming-Telefon
+# 3 - Streaming-Telefon
 
 3.a - Öffne die **IRL Pro App** und gehe zum **Zahnrad-Symbol** *(Einstellungen)* oben links.  
 
@@ -169,7 +169,7 @@ Diese Anleitung beschreibt eine **günstige und einfache** Lösung für
 <img src="https://github.com/Naginreed/irl-cae_Android-Win/assets/71943093/80417b7c-d629-44ac-b3ad-013e5eaf0842" width="600">  
 
 ---
-4 - Windows-PC
+# 4 - Windows-PC
 
 Jeder normale PC oder Laptop kann verwendet werden. Am besten wird er direkt per Kabel mit deinem Heimrouter verbunden.  
 Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du dir Mini-PCs anschauen.
@@ -177,7 +177,7 @@ Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du
 > [!WARNING]  
 > Dieser PC muss während des gesamten Streams eine **STABILE** Internetverbindung mit mindestens 6 Mbit Upload haben *[Speedtest](https://www.nperf.com)*.
 
-4.1 OBS
+# 4.1 OBS
 
 > [!NOTE]  
 > Dies ist das Programm, das den Stream vom Relay-Server empfängt und ihn zurück in das alte RTMP/h.264-Format konvertiert, um ihn direkt an Twitch zu senden. Hier hast du viele Möglichkeiten, Videos, Texte und Musik hinzuzufügen, um deine Zuschauer zu unterhalten, während du dich wieder verbindest.
@@ -208,7 +208,7 @@ Falls du einen neuen PC speziell für diesen Zweck kaufen möchtest, solltest du
 - End
 
 ---
-4.2 NOALBS
+# 4.2 NOALBS
 
 > [!NOTE]  
 > Dies ist das Programm, das OBS über Chat-Befehle steuert und automatisch Szenen umschaltet, wenn der Stream vom Telefon erkannt oder verloren wird.
@@ -264,7 +264,7 @@ Melde dich mit deinem bevorzugten Twitch-Konto an und öffne diesen **[Link](htt
 - Rechtsklicke auf die `noalbs` Datei, wähle **Verknüpfung erstellen** und ziehe die Verknüpfung auf den Desktop.  
 
 ---
-5 - OBS verschönern
+# 5 - OBS verschönern
 
 Die Grundeinrichtung ist abgeschlossen, aber die Szenen sind noch ziemlich leer. 
 Nachfolgend findest du eine Erklärung, welche Szene wofür verwendet wird und was typischerweise hinzugefügt wird.
@@ -297,7 +297,7 @@ Ende
 - Einfacher Text: "Ending Stream" ("Stream beendet").
 
 ---
-6 - Normaler Betrieb
+# 6 - Normaler Betrieb
 
 > [!NOTE]  
 > Vor **jedem** IRL-Stream müssen die folgenden Schritte durchgeführt werden:
@@ -316,7 +316,7 @@ Ende
 > Bei jedem Szenenwechsel in OBS erscheint eine Textnachricht im Chat.  
 
 ---
-7 - Zweite Internetverbindung
+# 7 - Zweite Internetverbindung
 
 > [!NOTE]  
 > Dies ist optional, kann aber in vielen Fällen die Stabilität des Streams erheblich verbessern. Es verhindert jedoch keine Ausfälle in Bereichen ohne Netzabdeckung, wie z. B. tief in den Bergen oder Tunneln.
@@ -328,7 +328,7 @@ Wie in der [Übersicht](#overview) dargestellt, kann eine zweite Internetverbind
 > Die zweite SIM-Karte verbraucht etwa **50 % des gesamten Datenvolumens**.  
 
 ---
-8 - Direkt zu Twitch streamen
+# 8 - Direkt zu Twitch streamen
 
 Falls der Relay-Server oder dein Heim-PC aus irgendeinem Grund nicht funktioniert, kannst du in der IRL Pro App ganz einfach zum direkten Streaming auf Twitch wechseln.
 
@@ -345,17 +345,17 @@ Falls der Relay-Server oder dein Heim-PC aus irgendeinem Grund nicht funktionier
 </details>
 
 ---
-9 - Zusätzliche Hilfe
+# 9 - Zusätzliche Hilfe
 
-IRL App
+### IRL App
 Hier ist deren [Discord](https://discord.gg/irlpro).
 
-OBS
+### OBS
 Du kannst deren [Forum](https://obsproject.com/forum/) besuchen oder eine der zahlreichen YouTube-Anleitungen anschauen.
 
-NOALBS
+### NOALBS
 Hier ist die Anleitung auf [GitHub](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching) sowie deren [Discord](https://discord.gg/efWu5HWM2u).
 
 ---
-Ko-Fi
+## Ko-Fi
 <a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Möchtest du mich unterstützen?](https://ko-fi.com/naginreed)
