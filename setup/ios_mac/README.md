@@ -1,26 +1,44 @@
-# General Info
-This Guide describes a **Cheap and Easy** Solution for
-- better **IRL**-Streaming 
-- **IPhone (iOS)** as Streaming Phone
-- **Mac/Macbook** as Home PC
+#  Guide for <a href=""><img src="https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue" height="30"></a>
 
-> [!NOTE]  
-> There are completely "free" methods, but they need more technical expertise and if wrongly configured could be a security risk for your Home PC.
-> With this Method you don't open up purposely any holes in your Security. *(No fixed IP | No PF | No FW Changes)*
+[![English](https://img.shields.io/badge/English-English-orange.svg)](README.md)
+[![Spanish](https://img.shields.io/badge/Spanish-Español-orange.svg)](README.es.md)
+[![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
+[![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
+[![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
+[![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
+[![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
+[![Arabic](https://img.shields.io/badge/Arabic-العربية-orange.svg)](README.ar.md)
+
+> [!WARNING]
+> These translations were generated using AI and may contain errors.  
+> Feel free to submit corrections via pull request.
+
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../ios_windows/README.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../android_windows/README.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../android_mac/README.md)
+
+> [!TIP]
+> If you choose the wrong OS, use the Buttons above.
 
 > [!IMPORTANT]  
 > <details>
 > <summary>You can use the 3 Lines at the top right to jump to any Section of the Guide</summary>
 > <img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/ddcfa25e-e806-48a7-9882-60fdc8794947">
 > </details>
----
-## Ko-Fi
-<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Wanna help me out?](https://ko-fi.com/naginreed)
 
 ---
-## Map
+# General Info
+This Guide describes a **Cheap and Easy** Solution for
+- better **IRL**-Streaming 
+- **IPhone (iOS)** as Streaming Phone
+- **Mac** as Home PC
 
-<img src="https://github.com/Naginreed/irl-cae_iOS-Mac/assets/71943093/c420ab6e-570c-47de-950a-c08653ec5847">
+---
+## Overview
+
+<img src="https://github.com/user-attachments/assets/acb012f3-b7ce-4e62-ae6b-86057db87be9" width="600">
 
 > [!NOTE]  
 > At first this looks pretty complicated, but we will go Step-by-Step with Pictures *(when available)* trough the whole Setup Process.
@@ -38,7 +56,6 @@ This Guide describes a **Cheap and Easy** Solution for
 - 👎 Additional monthly cost for 2nd Internet (Optional)
 - 👎 Takes some time for first Setup
 ---
-
 # 1 - Streaming Phone  
 
 > [!NOTE]   
@@ -50,7 +67,7 @@ This Guide describes a **Cheap and Easy** Solution for
 # 2 - SRT/SRTLA Relay
 
 > [!NOTE]   
-> This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Map](#map)
+> This Server takes the Two SRTLA Streams and combines them into one SRT Stream as seen on [Overview](#overview)
 
 > [!IMPORTANT]   
 > This Service costs $10 USD.
@@ -126,16 +143,12 @@ Any normal Mac or Macbook can be used, best cabled directly to your Home Interne
 > [!NOTE]  
 > The Pictures below are shown for Windows until replaced with MAC ones
 
-
 ## 4.1 OBS
 > [!NOTE]  
-> This is the Programm that gets the Stream from the Relay Server and converts it back to old RTMP/h.264 Standards and streams it directly to Twitch. Here you have a lot of Options to set Videos, Text, Music to entertain your viewers while you reconnect
+> This is the Programm that gets the Stream from the Relay Server and converts it back to old RTMP/h.264 Standards and streams it directly to Twitch. Here you have a lot of Options to set Videos, Text, Music to entertain your viewers while you reconnect*
 
 4.1.a - **Download [OBS Studio](https://obsproject.com/download)** for your System  
 4.1.b - **Install OBS** Studio and **Launch** it.  
-
-<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/3555ea78-d6bd-440b-9bdc-15a91799f1a2" width="400">
-
 4.1.c - In the Auto-Wizard 
  - Optimize for Streaming
  - **Resolution:** 1920x1080
@@ -184,7 +197,7 @@ Any normal Mac or Macbook can be used, best cabled directly to your Home Interne
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/c993bb43-a3ea-4bc5-a75a-c46858d2305e" width="600">
 
-4.1.i - Then Copy *(Command+C)* the **Bellabox-Cloud**-Source over to the **Low** Scene  
+4.1.i - Then Copy *(CTRL+C)* the **Bellabox-Cloud**-Source over to the **Low** Scene  
 4.1.j - Go To **Settings** on the bottom right. In the new Video select **Audio** and **Disable all Global Audio Devices**  
 
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/20b58802-fc64-491d-9d74-3bd0aef2d93d" width="500">
@@ -198,30 +211,18 @@ Any normal Mac or Macbook can be used, best cabled directly to your Home Interne
 ---
 ## 4.2 NOALBS
 > [!NOTE]  
-> This is the Program controls OBS via Chat-Commands and automatically switches Scenes if Stream from the Phone is detected
+> This is the Program that controls OBS via Chat-Commands and automatically switches Scenes if Stream from the Phone is detected or lost
 
 4.2.a - **Download [NOALBS](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching/releases)** for your System and unpack them to a location of your liking *(i recommend making a Stream and then a NOALBS Sub-Folder)*  
-4.2.b - Inside this Folder you should have these 4 files  
+4.2.b - Inside this Folder you should have now the following 3 files
  - .env
  - config.json
  - noalbs
- - launch.sh
-
-Sometimes .env will not show or download due to the . in the name
-[.env](env)
-Just Download it from here again and place it in the same folder
-
-4.2.c - Open up a Terminal Window and enter command
-`cd /Users/`yourusername`/Documents/Stream/NOALBS`
-where **yourusername** = your username on the MAC and the Path to the folder, if you have a different one. Then hit **Enter**
-`mv env .env` and hit **Enter**
-env File should now vanish in Finder *(You can show it in Finder by pressing* **Command + Shift + .** *)*
-
 
 4.2.c - For NOALBS to respond to our Chat commands we need to give access to a Twitch Account. Once you logged in with your preferred Account in Twitch, click on this **[Link](https://b3ck.com/twitch/oauth)**, then hit **Authorize with Twitch** and copy the whole Code from the website
 
-<img src="https://github.com/user-attachments/assets/d668b651-5f7e-45b3-9e1a-e26eb5174b19" height="300">
-<img src="https://github.com/user-attachments/assets/44ca3f4b-4ea8-47a8-868e-180fc5c62ba7" height="130">
+<img src="https://github.com/user-attachments/assets/d668b651-5f7e-45b3-9e1a-e26eb5174b19" height="200">
+<img src="https://github.com/user-attachments/assets/44ca3f4b-4ea8-47a8-868e-180fc5c62ba7" height="180">
 
 4.2.d - **Open** the **.env** File with a Text-Editor
  - replace everything with your copied data
@@ -230,13 +231,12 @@ env File should now vanish in Finder *(You can show it in Finder by pressing* **
 
  - save and close the file
 
-4.2.e - Download the File and replace it with your **config.json**  
-[config.json](config.json)  
-4.2.f - **Open** the **config.json** File with a Text-Editor  
+4.2.f - Download the [config.json](../config.json) from here and replace it with your local file. 
+ - **Open** the **config.json** File with a Text-Editor  
  - replace all 3x of *REPLACE_STREAMER_NAME* with your Twitch Account Name
 
-4.2.g - open the Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
- - Scroll down to **NOALBSv2 configuration**
+4.2.g - Open the **[Belabox Cloud](https://cloud.belabox.net/#relays)** Page and go to **SRT(LA) relays**  
+ - Scroll down to **NOALBSv2 configuration**  
  - replace *REPLACE_BELLABOX_URL* with the URL from the Belabox Page
  - replace *REPLACE_BELLABOX_INGEST_KEY* with the last Part of the URL
 
@@ -250,17 +250,12 @@ env File should now vanish in Finder *(You can show it in Finder by pressing* **
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/7f04f75c-0611-43d6-8831-5fc8487981db" height="300">
 <img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/f16885ce-8c51-4bb4-92fa-b0e7311f3b41" height="100">
 
-4.2.i - Save and close the file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
-4.2.j - Start the **noalbs** programm. *There should be an error starting it the first time saying that the developer is not verified, just hit ok*  
-4.2.k - Make sure .sh files are **always opened** with the Terminal app. To do this Control Click the .sh File > Open with > Other. In the Menu by **Enable** choose **All Aplications** and check **Always open With** below. Then choose **Terminal** on the left side and hit **Open**
+4.2.i - Save and close the config.json file. *Detailed Infos [NOALBS Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching)*  
+4.2.j - Start the **noalbs** programm. It should look like the picture below. Errors are also shown here  
 
-4.2.l - Always run NOALBS over the launch.sh File. Check if it shows any Errors. Errors with Chat -> check .evn file. Errors with OBS -> check OBS Websocket or Websocket Settings in config.json  
+<img src="https://github.com/Naginreed/irl-cae-setup/assets/71943093/0329e383-07f3-40e8-8f80-de3d0fa3391d" height="270">
 
-> [!NOTE]  
-> Opening the launch.sh in the Terminal app will always start up NOALBS from within the directory it is in.
-
-> [!TIP]
-> You can also make an Alias to the launch.sh and put it on the desktop to not forget to run it.
+4.2.k - You can create a Shortcut by right-clicking the noalbs file and hit **Create Shortcut** and drag the Shortcut for example on Desktop for easier access  
 
 ---
 # 5 - Make OBS pretty
@@ -283,7 +278,7 @@ Following is an Explanation on what Scene is used for what and what People norma
 - simple Text "low bitrate"
   
 **Brb**
-- When the connection to Phone is lost completely or you end the livestream in Moblin on purpose *(for privacy)*
+- When the connection to Phone is lost completely or you end the livestream in IRLPro on purpose *(for privacy)*
 - old VODs or Clips are often used (For Clips i recommend a Folder named Clips and adding a VLC Media Source *requires [VLC Media Player](https://www.videolan.org/vlc/)*)
 - simple Text "Be right back"
 - Can be switched to when you go to Toilet or have private Conversation for a few Minutes
@@ -305,24 +300,22 @@ Following is an Explanation on what Scene is used for what and what People norma
 6.e - **Go Live in IRL Pro** -> after a few seconds you are switched to **Live-Scene**  
 6.f - If you stop or loose connections on the Phone -> after a few seconds you are switched to **Brb-Scene**  
 6.g - As soon as connection from Phone to Internet is restored -> after a few seconds you are switched back to **Live-Scene**  
-6.h - End/Start the Livestream manually in Moblin to switch between `!brb` and `!live`  
+6.h - End/Start the Livestream manually in IRLPro to switch between `!brb` and `!live`  
 6.i - **Stop the Stream** automatically if you raid someone or with Chat command `!stop`  
 
 > [!IMPORTANT]  
 > With every Scene Change in OBS you will see a text Message in Chat
-
 ---
 # 7 - 2nd Internet Connection  
 > [!NOTE]  
 > This is optional and improves stream stability alot in many cases. But it doesnt prevent outtages in No Service Areas like deep into the Mountains or Tunnels.
 
-As seen in the [Map](#map) there can be 2nd Internet Connection for your phone to reduce the chance of outtages for the Live Stream.  
+As seen in the [Overview](#overview) there can be 2nd Internet Connection for your phone to reduce the chance of outtages for the Live Stream.  
 Either a Mobile WiFi Router or a Second Phone with Mobile Hotspot active.  
 
 > [!IMPORTANT]  
 > For this second SIM a different Provider is highly recommended.
 > The 2nd Sim will also consume about ~50% of the overall Data
-
 ---
 # 8 - Stream directly to twitch  
 
@@ -346,7 +339,8 @@ Here is their [Discord](https://discord.gg/Tm6kf778)
 ### OBS 
 you can check their [Forum](https://obsproject.com/forum/) or just look up one of the hundreds of Youtube Tutorials
 ### NOALBS
-
-
 Here is the Guide on [Github](https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching) and their [Discord](https://discord.gg/efWu5HWM2u)
 
+---
+## Ko-Fi
+<a href="https://ko-fi.com/naginreed"><img src="https://github.com/Naginreed/irl-cae-setup-ioS/assets/71943093/29446800-fcff-4170-9ee0-7fec375ddfd8" alt="Naginreed Ko-Fi" height="60"></a><br> [Wanna help me out?](https://ko-fi.com/naginreed)
