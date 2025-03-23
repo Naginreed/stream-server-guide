@@ -29,7 +29,7 @@
 То же самое происходит, если вы теряете сигнал сотовой сети или у вас разряжается батарея.
 
 > [!NOTE]  
-> **Everything that happens on the phone affects directly your stream**
+> **Все, что происходит на телефоне, напрямую влияет на ваш поток.**
 
 <img src="https://github.com/user-attachments/assets/13ce58f3-6930-4711-bfaf-4e7716c1d48d" width="600">
 
