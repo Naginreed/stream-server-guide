@@ -4,7 +4,7 @@
 [![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
 [![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
 [![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt.md)
 [![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
 [![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
 [![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)

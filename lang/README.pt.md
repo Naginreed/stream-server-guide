@@ -4,7 +4,7 @@
 [![Chinese](https://img.shields.io/badge/Chinese-中文-orange.svg)](README.zh-CN.md)
 [![French](https://img.shields.io/badge/French-Français-orange.svg)](README.fr.md)
 [![German](https://img.shields.io/badge/German-Deutsch-orange.svg)](README.de.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt-BR.md)
+[![Portuguese](https://img.shields.io/badge/Portuguese-Português-orange.svg)](README.pt.md)
 [![Japanese](https://img.shields.io/badge/Japanese-日本語-orange.svg)](README.ja.md)
 [![Russian](https://img.shields.io/badge/Russian-Русский-orange.svg)](README.ru.md)
 [![Korean](https://img.shields.io/badge/Korean-한국어-orange.svg)](README.ko.md)
@@ -14,10 +14,10 @@
 > Essas traduções foram geradas por IA e podem conter erros.  
 > Sinta-se à vontade para enviar correções via pull request.
 
-[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.pt-BR.md)
-[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.pt-BR.md)
-[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.pt-BR.md)
-[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.pt-BR.md)
+[![Badge-ios-win](https://img.shields.io/badge/Windows-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_windows/README.pt.md)
+[![Badge-ios-mac](https://img.shields.io/badge/Mac-grey?logo=iOS&logoSize=auto&labelColor=blue)](../setup/ios_mac/README.pt.md)
+[![Badge-android-win](https://img.shields.io/badge/Windows-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_windows/README.pt.md)
+[![Badge-android-mac](https://img.shields.io/badge/Mac-grey?logo=android&logoColor=white&logoSize=auto&label=Android&labelColor=green)](../setup/android_mac/README.pt.md)
 
 > [!TIP]
 > Pule direto para minha configuração rápida e fácil selecionando o sistema operacional acima.
